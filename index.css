@@ -1,0 +1,923 @@
+div#container
+{
+   width: 480px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #00BFFF;
+   background-image: url('images/index_bkgrnd.png');
+   background-repeat: repeat-x;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#wb_id_foto_project2
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#id_foto_project2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_id_foto_project1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#id_foto_project1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_id_foto_project3
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#id_foto_project3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_id_foto
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#id_foto
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_id_idmp 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 25px;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_idmp div
+{
+   text-align: left;
+}
+#wb_id_nama_wa_email 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 25px;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_nama_wa_email div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+}
+#id_webreplika
+{
+   box-sizing: border-box;
+   line-height: 60px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #228B22;
+   border-radius: 30px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #228B22;
+   font-family: Lato;
+   font-weight: normal;
+   font-style: italic;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#id_link_daftar
+{
+   box-sizing: border-box;
+   line-height: 60px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #228B22;
+   border-radius: 30px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #228B22;
+   font-family: Lato;
+   font-weight: normal;
+   font-style: italic;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#id_DowloadApp
+{
+   box-sizing: border-box;
+   line-height: 60px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #228B22;
+   border-radius: 30px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #228B22;
+   font-family: Lato;
+   font-weight: normal;
+   font-style: italic;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#id_direct_wa
+{
+   box-sizing: border-box;
+   line-height: 60px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #228B22;
+   border-radius: 30px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #228B22;
+   font-family: Lato;
+   font-weight: normal;
+   font-style: italic;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Layer3
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 2px solid #228B22;
+   border-radius: 15px;
+}
+#wb_id_nama_project2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_nama_project2 div
+{
+   text-align: left;
+}
+#wb_id_nama_project1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_nama_project1 div
+{
+   text-align: left;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_id_nama_project3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_nama_project3 div
+{
+   text-align: left;
+}
+#wb_id_nama_project4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_nama_project4 div
+{
+   text-align: left;
+}
+#wb_id_foto_project4
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#id_foto_project4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_id_teaser_promo3 
+{
+   background-color: rgba(0,0,0,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_teaser_promo3 div
+{
+   text-align: left;
+}
+#Layer4
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 2px solid #228B22;
+   border-radius: 15px;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14 div
+{
+   text-align: center;
+}
+#wb_id_teaser_promo1 
+{
+   background-color: rgba(0,0,0,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_teaser_promo1 div
+{
+   text-align: left;
+}
+#wb_id_teaser_promo2 
+{
+   background-color: rgba(0,0,0,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_teaser_promo2 div
+{
+   text-align: left;
+}
+#wb_id_teaser_promo4 
+{
+   background-color: rgba(0,0,0,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_id_teaser_promo4 div
+{
+   text-align: left;
+}
+#wb_id_nama_project2
+{
+   position: absolute;
+   left: 148px;
+   top: 328px;
+   width: 210px;
+   height: 24px;
+   z-index: 10;
+}
+#id_DowloadApp
+{
+   position: absolute;
+   left: 10px;
+   top: 194px;
+   width: 460px;
+   height: 66px;
+   z-index: 5;
+}
+#wb_id_nama_project3
+{
+   position: absolute;
+   left: 28px;
+   top: 581px;
+   width: 210px;
+   height: 24px;
+   z-index: 14;
+}
+#wb_id_foto_project1
+{
+   position: absolute;
+   left: 28px;
+   top: 101px;
+   width: 298px;
+   height: 184px;
+   z-index: 7;
+}
+#wb_id_nama_project4
+{
+   position: absolute;
+   left: 148px;
+   top: 848px;
+   width: 210px;
+   height: 24px;
+   z-index: 17;
+}
+#wb_id_foto_project2
+{
+   position: absolute;
+   left: 148px;
+   top: 358px;
+   width: 298px;
+   height: 184px;
+   z-index: 11;
+}
+#wb_id_foto_project3
+{
+   position: absolute;
+   left: 28px;
+   top: 618px;
+   width: 298px;
+   height: 184px;
+   z-index: 15;
+}
+#wb_id_foto
+{
+   position: absolute;
+   left: 14px;
+   top: 10px;
+   width: 118px;
+   height: 114px;
+   z-index: 2;
+}
+#wb_id_foto_project4
+{
+   position: absolute;
+   left: 148px;
+   top: 878px;
+   width: 298px;
+   height: 184px;
+   z-index: 18;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 44px;
+   top: 10px;
+   width: 388px;
+   height: 32px;
+   text-align: center;
+   z-index: 8;
+}
+#id_link_daftar
+{
+   position: absolute;
+   left: 10px;
+   top: 116px;
+   width: 460px;
+   height: 66px;
+   z-index: 4;
+}
+#id_foto
+{
+   width: 118px;
+   height: 114px;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: left;
+   left: 0px;
+   top: 4px;
+   width: 480px;
+   height: 130px;
+   z-index: 21;
+}
+#id_direct_wa
+{
+   position: absolute;
+   left: 10px;
+   top: 276px;
+   width: 460px;
+   height: 66px;
+   z-index: 6;
+}
+#Layer2
+{
+   position: absolute;
+   text-align: left;
+   left: 0px;
+   top: 134px;
+   width: 480px;
+   height: 386px;
+   z-index: 22;
+}
+#id_foto_project1
+{
+   width: 298px;
+   height: 184px;
+}
+#Layer3
+{
+   position: absolute;
+   text-align: left;
+   left: 0px;
+   top: 520px;
+   width: 476px;
+   height: 1166px;
+   z-index: 23;
+}
+#Layer4
+{
+   position: absolute;
+   text-align: left;
+   left: 0px;
+   top: 1660px;
+   width: 480px;
+   height: 40px;
+   z-index: 24;
+}
+#id_foto_project2
+{
+   width: 298px;
+   height: 184px;
+}
+#id_foto_project3
+{
+   width: 298px;
+   height: 184px;
+}
+#id_foto_project4
+{
+   width: 298px;
+   height: 184px;
+}
+#id_webreplika
+{
+   position: absolute;
+   left: 10px;
+   top: 36px;
+   width: 460px;
+   height: 66px;
+   z-index: 3;
+}
+#wb_id_teaser_promo1
+{
+   position: absolute;
+   left: 268px;
+   top: 138px;
+   width: 164px;
+   height: 83px;
+   z-index: 9;
+}
+#wb_Text14
+{
+   position: absolute;
+   left: 24px;
+   top: 13px;
+   width: 388px;
+   height: 14px;
+   text-align: center;
+   z-index: 20;
+}
+#wb_id_teaser_promo2
+{
+   position: absolute;
+   left: 28px;
+   top: 398px;
+   width: 170px;
+   height: 83px;
+   z-index: 12;
+}
+#wb_id_teaser_promo3
+{
+   position: absolute;
+   left: 268px;
+   top: 668px;
+   width: 164px;
+   height: 62px;
+   z-index: 16;
+}
+#wb_id_teaser_promo4
+{
+   position: absolute;
+   left: 24px;
+   top: 928px;
+   width: 174px;
+   height: 83px;
+   z-index: 19;
+}
+#wb_id_idmp
+{
+   position: absolute;
+   left: 134px;
+   top: 10px;
+   width: 307px;
+   height: 18px;
+   z-index: 0;
+}
+#wb_id_nama_project1
+{
+   position: absolute;
+   left: 28px;
+   top: 71px;
+   width: 210px;
+   height: 24px;
+   z-index: 13;
+}
+#wb_id_nama_wa_email
+{
+   position: absolute;
+   left: 134px;
+   top: 46px;
+   width: 307px;
+   height: 58px;
+   z-index: 1;
+}
+@media only screen and (max-width: 479px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #00BFFF;
+   background-image: url('images/index_bkgrnd320.png');
+   background-repeat: repeat-x;
+}
+#wb_id_foto_project2
+{
+   left: 10px;
+   top: 612px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_id_foto_project1
+{
+   left: 8px;
+   top: 102px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_id_foto_project3
+{
+   left: 8px;
+   top: 362px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#Layer1
+{
+   left: 0px;
+   top: 4px;
+   width: 320px;
+   height: 256px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_foto
+{
+   left: 32px;
+   top: 16px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_id_idmp
+{
+   left: 12px;
+   top: 130px;
+   width: 163px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_idmp
+{
+   margin: 0;
+   padding: 10px 0px 10px 25px;
+}
+#wb_id_nama_wa_email
+{
+   left: 11px;
+   top: 168px;
+   width: 273px;
+   height: 58px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_nama_wa_email
+{
+   margin: 0;
+   padding: 10px 0px 10px 25px;
+}
+#Layer2
+{
+   left: 0px;
+   top: 260px;
+   width: 320px;
+   height: 356px;
+   visibility: visible;
+   display: inline;
+}
+#id_webreplika
+{
+   left: 10px;
+   top: 30px;
+   width: 299px;
+   height: 66px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#id_webreplika
+{
+   line-height: 60px;
+}
+#id_link_daftar
+{
+   left: 10px;
+   top: 116px;
+   width: 299px;
+   height: 66px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#id_link_daftar
+{
+   line-height: 60px;
+}
+#id_DowloadApp
+{
+   left: 10px;
+   top: 194px;
+   width: 299px;
+   height: 66px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#id_DowloadApp
+{
+   line-height: 60px;
+}
+#id_direct_wa
+{
+   left: 10px;
+   top: 272px;
+   width: 299px;
+   height: 66px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#id_direct_wa
+{
+   line-height: 60px;
+}
+#Layer3
+{
+   left: 0px;
+   top: 616px;
+   width: 316px;
+   height: 1150px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_nama_project2
+{
+   left: 10px;
+   top: 582px;
+   width: 210px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_nama_project2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_id_nama_project1
+{
+   left: 9px;
+   top: 72px;
+   width: 210px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_nama_project1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   left: 42px;
+   top: 10px;
+   width: 232px;
+   height: 32px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_id_nama_project3
+{
+   left: 8px;
+   top: 332px;
+   width: 210px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_nama_project3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_id_nama_project4
+{
+   left: 10px;
+   top: 842px;
+   width: 210px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_nama_project4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_id_foto_project4
+{
+   left: 10px;
+   top: 872px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_id_teaser_promo3
+{
+   left: 8px;
+   top: 492px;
+   width: 231px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_teaser_promo3
+{
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+}
+#Layer4
+{
+   width: 316px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text14
+{
+   left: 41px;
+   top: 13px;
+   width: 234px;
+   height: 14px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text14
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_id_teaser_promo1
+{
+   left: 8px;
+   top: 238px;
+   width: 231px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_teaser_promo1
+{
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+}
+#wb_id_teaser_promo2
+{
+   left: 8px;
+   top: 742px;
+   width: 231px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_teaser_promo2
+{
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+}
+#wb_id_teaser_promo4
+{
+   left: 8px;
+   top: 1002px;
+   width: 231px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+}
+#wb_id_teaser_promo4
+{
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+}
+}
